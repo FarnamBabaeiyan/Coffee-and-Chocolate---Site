@@ -7,7 +7,7 @@ html{
 body{
 
     margin: 0;
-    background-color: #121a1d;
+    background-color:  #0c1214;
 }
 a{
     display: inline-block;
@@ -632,6 +632,14 @@ div.banner{
     justify-content: space-between;
     align-items: center;
 }
+
+ div.banner div.banner-caption{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 div.banner div.background{
     display: flex;
     justify-content: space-between;
@@ -645,13 +653,32 @@ div.banner div.background div.background-caption {
     align-items: center;
    
 }
+div.banner div.background div.background-caption div.first-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    
+}
+ div.banner div.background div.background-caption div.first-line h3{
+    padding-left: 15px;
+    color: white;
+    font-size: 12px;
+   
+}
+div.banner div.background div.background-caption div.first-line div.small-line{
+    width: 15%;
+    border: 1px solid #d68240;
+    background-color: #d68240;
+    padding: 7px px;
+    height: 4px;
+    border-radius: 45px;
+}
 div.banner div.background div.background-caption div.left-part{
     color: white;
 
 }
-div.banner div.background div.background-caption div.left-part span{
-    font-size: 15px;
-}
+
 div.banner div.background div.background-caption div.left-part h2{
     font-size: 40px;
 }
@@ -910,6 +937,27 @@ div.undercard-button div.right-side svg{
     justify-content: center;
     align-items: center;
 }
+ div.banner2 div.first-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 30%;
+}
+ div.banner2 div.first-line h3{
+    padding-left: 15px;
+    color: white;
+    font-size: 12px;
+   
+}
+div.banner2 div.first-line div.small-line{
+    width: 15%;
+    border: 1px solid #d68240;
+    background-color: #d68240;
+    padding: 7px px;
+    height: 4px;
+    border-radius: 45px;
+}
  div.banner2 div.banner-caption{
     position: absolute;
     display: flex;
@@ -921,10 +969,7 @@ div.undercard-button div.right-side svg{
  div.banner2 div.banner-caption div.left-side{
     padding-right: 250px;
 }
- div.banner2 div.banner-caption div.left-side h3{
-    color: white;
-    font-size: 13px;
-}
+
 div.banner2 div.banner-caption div.left-side h2{
     color: white;
     font-size: 55px;
@@ -999,7 +1044,8 @@ div.social-media div.right-side a:hover{
     justify-content: center;
     align-items: center;
     height: 100px;
-    padding-top: 65px;
+    padding-top: 95px;
+    padding-bottom: 20px;
  }
  /* about-us */
  div.footer div.about-us{

@@ -302,6 +302,27 @@ div.body div.card-box div.card3{
         justify-content: center;
         align-items: center;
     }
+    div.body div.banner div.first-line{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+        width: 30%;
+    }
+    div.body div.banner div.first-line h3{
+        padding-left: 15px;
+        color: white;
+        font-size: 12px;
+       
+    }
+    div.body div.banner div.first-line div.small-line{
+        width: 25%;
+        border: 1px solid #d68240;
+        background-color: #d68240;
+        padding: 7px px;
+        height: 4px;
+        border-radius: 45px;
+    }
     div.body div.banner div.banner-caption{
         position: absolute;
         display: flex;
@@ -313,10 +334,7 @@ div.body div.card-box div.card3{
     div.body div.banner div.banner-caption div.left-side{
         padding-right: 250px;
     }
-    div.body div.banner div.banner-caption div.left-side h3{
-        color: white;
-        font-size: 13px;
-    }
+    
     div.body div.banner div.banner-caption div.left-side h2{
         color: white;
         font-size: 55px;
@@ -572,14 +590,31 @@ div.body div.banner2{
     width: 100%;
 
 }
+div.body div.banner2 div.first-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 30%;
+}
+div.body div.banner2 div.first-line h3{
+    padding-left: 15px;
+    color: white;
+    font-size: 12px;
+   
+}
+div.body div.banner2 div.first-line div.small-line{
+    width: 15%;
+    border: 1px solid #d68240;
+    background-color: #d68240;
+    padding: 7px px;
+    height: 4px;
+    border-radius: 45px;
+}
 div.body div.banner2 div.banner2-caption{
     padding-left: 125px;
 }
-div.body div.banner2 div.banner2-caption h3{
-color: white;
-font-size: 13px;
-padding-left: 25px;
-}
+
 div.body div.banner2 div.banner2-caption h2{
     font-size: 45px;
     width: 60%;
@@ -746,12 +781,32 @@ div.body div.publications a{
     justify-content: center;
     align-items: center;
 }
+div.body div.banner3 div.first-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 30%;
+}
+div.body div.banner3 div.first-line h3{
+    padding-left: 15px;
+    color: white;
+    font-size: 12px;
+   
+}
+div.body div.banner3 div.first-line div.small-line{
+    width: 15%;
+    border: 1px solid #d68240;
+    background-color: #d68240;
+    padding: 7px px;
+    height: 4px;
+    border-radius: 45px;
+}
 div.body div.banner3 div.banner3-caption{
     position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 110;  
     width: 70%;
 }
 /* left-side */
